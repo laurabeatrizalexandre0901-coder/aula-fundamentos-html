@@ -1,0 +1,3 @@
+primeira mudança: mudei a fonte da texto
+segunda mudança: adicionei um efeito visual de flores de cerejeira caindo
+terceira mudança: adicionei movimentos quando clica na imagem
