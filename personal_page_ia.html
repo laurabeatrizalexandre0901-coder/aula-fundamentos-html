@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Perfil da Lau</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Gloria+Hallelujah&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgba(237, 160, 168, 0.29);
+            font-family: "Gloria Hallelujah", cursive;
+
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 30px;
+        }
+
+        /* Caixa principal */
+        .bio {
+            background-color: rgb(243, 254, 211);
+
+            padding: 30px;
+
+            border-radius: 15px;
+
+            width: 700px;
+            max-width: 95%;
+
+            margin: auto;
+
+            text-align: center;
+
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            color: #d65a70;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            padding: 10px;
+            color: #d65a70;
+        }
+
+        p {
+            padding: 15px;
+        }
+
+        /* Foto */
+        .foto {
+            width: 250px;
+            height: 250px;
+
+            object-fit: cover;
+
+            border-radius: 50%;
+
+            border: 5px solid #e89aaa;
+
+            margin: 10px;
+        }
+
+        /* Texto da bio */
+        .descricao {
+            font-size: 17px;
+            color: #68444b;
+        }
+
+        /* Especialidades e hobbies */
+        .conteudo {
+            display: flex;
+
+            justify-content: center;
+
+            gap: 30px;
+
+            margin-top: 15px;
+        }
+
+        .especialidades,
+        .hobbies {
+            width: 50%;
+
+            background-color: rgba(255, 255, 255, 0.55);
+
+            padding: 15px;
+
+            border-radius: 12px;
+
+            border: 2px solid #e7a1ad;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            padding: 7px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #8d4c59;
+        }
+
+        a:hover {
+            color: #d93659;
+        }
+
+        /* Links das especialidades */
+        .especialidades a {
+            display: block;
+
+            padding: 5px;
+
+            border-radius: 8px;
+        }
+
+        .especialidades a:hover {
+            background-color: #ffe0e5;
+        }
+
+        /* Logos */
+        .logos {
+            width: 40px;
+            height: 40px;
+
+            object-fit: contain;
+
+            margin-top: 15px;
+
+            transition: 0.3s;
+        }
+
+        .logos:hover {
+            transform: scale(1.15);
+        }
+
+        /* Celular */
+        @media (max-width: 600px) {
+
+            .conteudo {
+                flex-direction: column;
+            }
+
+            .especialidades,
+            .hobbies {
+                width: 100%;
+            }
+
+            .bio {
+                width: 95%;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="bio">
+
+        <h1>🌸 Olá, eu sou a Lau! 🌸</h1>
+
+        <img class="foto" src="seen.jpg" alt="Minha foto">
+
+        <p class="descricao">
+            Tenho 16 anos, sou estudante de ensino médio
+            cursando desenvolvimento de sistemas.
+        </p>
+
+
+        <!-- ESPECIALIDADES E HOBBIES -->
+
+        <div class="conteudo">
+
+            <!-- ESPECIALIDADES -->
+            <div class="especialidades">
+
+                <h2>✨ Minhas especialidades ✨</h2>
+
+                <ul>
+
+                    <li>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=1ZP31r-ZCb0&list=PLRWf_AMCWVq4ELZuusXmEfWfhtXXWJPZq">
+                            🧠 Psicologia
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=hdR7HGR9fb0&list=PLBhudnzoa7jQbXbLYOeUk2qPriu6g4q5c">
+                            🎨 Desenho
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="_blank"
+                            href="https://www.youtube.com/watch?v=6w7IwF7fGhE&list=RDATg7XfodHlwZV9wbGF5bGlzdA&start_radio=1">
+                            🎵 Músicas
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- HOBBIES -->
+            <div class="hobbies">
+
+                <h2>🌷 Meus Hobbies 🌷</h2>
+
+                <ul>
+
+                    <li>🎨 Desenhar</li>
+
+                    <li>🌎 Sair</li>
+
+                    <li>🎮 Jogar</li>
+
+                    <li>🎧 Escutar Músicas</li>
+
+                    <li>📺 Assistir</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!-- REDES SOCIAIS -->
+
+        <div>
+
+            <a href="https://github.com/laurabeatrizalexandre0901-coder"
+                target="_blank">
+
+                <img class="logos"
+                    src="github.png"
+                    alt="GitHub">
+
+            </a>
+
+            &nbsp;&nbsp;
+
+            <a href="https://www.linkedin.com/in/laura-beatriz-alexandre-8980663b5/"
+                target="_blank">
+
+                <img class="logos"
+                    src="linkedin.png"
+                    alt="LinkedIn">
+
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
